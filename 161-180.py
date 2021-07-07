@@ -55,3 +55,52 @@ for i in range(1, 11):
 print(result)
 
 # 171
+price_list = [32100, 32150, 32000, 32500]
+for i in range(len(price_list)):
+    print(price_list[i])
+
+# 172
+for i in range(len(price_list)):
+    print(i, price_list[i])
+
+# 173
+for i in range(len(price_list)):
+    print(3 - i, price_list[i])
+
+# 174
+for i in range(1, 4):
+    print(90 + 10 * i, price_list[i])
+
+# 175
+my_list = ["A", "B", "C", "D"]
+for i in range(3):
+    print(my_list[i], my_list[i + 1])
+
+# 176
+my_list = ["A", "B", 'C', 'D', 'E']
+for i in range(3):
+    print(my_list[i], my_list[i + 1], my_list[i + 2])
+
+# 177
+my_list = ['A', 'B', 'C', 'D']
+for i in [3, 2, 1]:
+    print(my_list[i], my_list[i - 1])
+
+# 178
+my_list = [100, 200, 400, 800]
+for i in range(1, 4):
+    print(my_list[i] - my_list[i - 1])
+
+# 179
+my_list = [100, 200, 400, 800, 1000, 1300]
+for i in range(4):
+    avg = (my_list[i] + my_list[i + 1] + my_list[i + 2]) / 3
+    print(avg)
+
+# 180
+low_prices = [100, 200, 400, 800, 1000]
+high_prices = [150, 300, 430, 880, 1000]
+vol = []
+for i in range(len(low_prices)):
+    vol.append(high_prices[i] - low_prices[i])
+print(vol)
