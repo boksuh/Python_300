@@ -1,0 +1,3 @@
+005930 Samsung
+005380 Hyundai
+035420 Naver
